@@ -60,17 +60,40 @@ h1, h2, h3 {
    Box Model Demo
 ============================ */
 .box-demo {
-  background-color: #fffbcc; /* content */
+  background-color: #fffbcc; 
   padding: 20px;
   border: 5px solid #ff9900;
   margin: 30px auto;
   text-align: center;
 }
 
-.highlight-content { background-color: #fffbcc; padding: 2px 4px; }
-.highlight-padding { background-color: #d1f7d1; padding: 2px 4px; }
-.highlight-border  { background-color: #ffd6cc; padding: 2px 4px; }
-.highlight-margin  { background-color: #cce5ff; padding: 2px 4px; }
+.highlight-content { 
+  background-color: #ffe0b2;
+  padding: 2px 4px; 
+  border-radius: 3px;
+  border: 1px dashed #999;
+}
+
+.highlight-padding { 
+  background-color: #c8e6c9;
+  padding: 2px 4px; 
+  border-radius: 3px;
+  border: 1px dashed #999;
+}
+
+.highlight-border  { 
+  background-color: #ffccbc;
+  padding: 2px 4px; 
+  border-radius: 3px;
+  border: 1px dashed #999;
+}
+
+.highlight-margin  { 
+  background-color: #bbdefb;
+  padding: 2px 4px; 
+  border-radius: 3px;
+  border: 1px dashed #999;
+}
 
 /* ============================
    Buttons
