@@ -1,0 +1,101 @@
+/* ============================
+   General Page Styles
+============================ */
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0 0 10px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+/* ============================
+   Header
+============================ */
+.header {
+  background-color: #ff6f61;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+/* ============================
+   Cards / Sections
+============================ */
+.card {
+  background-color: #fff;
+  border: 2px solid #ff9f80;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about {
+  margin: 30px auto;
+}
+
+.story-card {
+  text-align: center;
+}
+
+.story-card button {
+  margin-top: 10px;
+}
+
+/* ============================
+   Box Model Demo
+============================ */
+.box-demo {
+  background-color: #fffbcc; /* content */
+  padding: 20px;
+  border: 5px solid #ff9900;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.highlight-content { background-color: #fffbcc; padding: 2px 4px; }
+.highlight-padding { background-color: #d1f7d1; padding: 2px 4px; }
+.highlight-border  { background-color: #ffd6cc; padding: 2px 4px; }
+.highlight-margin  { background-color: #cce5ff; padding: 2px 4px; }
+
+/* ============================
+   Buttons
+============================ */
+.btn {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #e85c50;
+}
+
+/* ============================
+   Footer
+============================ */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
